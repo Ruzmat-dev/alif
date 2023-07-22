@@ -1,0 +1,118 @@
+
+.slider {
+    margin-top: 80px;
+
+    &__title {
+        font-family: "Open Sans";
+        line-height: 1rem;
+        font-weight: 900;
+        font-size: 35px;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 50px;
+        font-family: "Open Sans";
+
+        
+
+            &-one {
+                width: 395px ;
+                
+                div {
+                    background-color: #dbeafe;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    width: 395px;
+                    height: 241px;
+                    align-items: center;
+                    border-radius: 20px;
+                    span {
+                        background-image: url(../../assets/images/Blue.4c3a1428.svg);
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        display: block;
+                        width: 159px;
+                        height: 100%;
+                       margin-top: 48px;
+                        
+                    }
+                }
+
+                p {
+                    margin: 10px 0 0 10px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: "Inter" sans-serif;
+                }
+            }
+
+            &-two {
+                width: 395px ;
+                
+                div {
+                    background-color: #dbeafe;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    width: 395px;
+                    height: 241px;
+                    align-items: center;
+                    border-radius: 20px;
+                    span {
+                        background-image: url(../../assets/images/Pink.fa55e788.svg);
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        display: block;
+                        width: 159px;
+                        height: 100%;
+                       margin-top: 48px;
+                        
+                    }
+                }
+
+                p {
+                    margin: 10px 0 0 10px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: "Inter" sans-serif;
+                }
+            }
+
+            &-three {
+                width: 395px ;
+                
+                div {
+                    background-color: #dbeafe;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    width: 395px;
+                    height: 241px;
+                    align-items: center;
+                    border-radius: 20px;
+                    span {
+                        background-image: url(../../assets/images/Green.15787a7f.svg);
+                        background-repeat: no-repeat;
+                        text-align: center;
+                        display: block;
+                        width: 159px;
+                        height: 100%;
+                       margin-top: 48px;
+                        
+                    }
+                }
+
+                p {
+                    margin: 10px 0 0 10px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: "Inter" sans-serif;
+                }
+            }
+        }
+    
+}
