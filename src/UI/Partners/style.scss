@@ -1,0 +1,95 @@
+
+.partner {
+    margin: 50px 0;
+
+    &__title {
+        font-family: "Roboto";
+        line-height: 1rem;
+        font-weight: 500;
+        font-size: 35px;
+        color: #000;
+    }
+
+    &__wrapper {
+        margin: 50px 0;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        a {
+            text-align: center;
+            align-items: center;
+            // width: 300px;
+            //     height: 120px;
+            display: flex;
+            justify-content: center;
+            div {
+                
+                background-repeat: no-repeat;
+                background-size: cover;
+                text-align: center;
+                width: 236px;
+                height: 100px;
+                border-radius: var(--border-radius);
+                object-fit: cover;
+            }
+
+        }
+
+        
+        &-idea {
+            background-image: url(../../assets/images/idea.a34bd7c2.png);
+            width: 150px;
+            height: 100px;
+        }
+
+        &-mediapark {
+            background-image: url(../../assets/images/Mediapark.417b7326.png);
+        }
+
+        &-storesmart {
+            background-image: url(../../assets/images/Storesmart.d63bff61.png);
+        }
+
+        &-paragraf {
+            background-image: url(../../assets/images/Paragraf.2c8adfcb.png);
+        }
+
+        &-mobilezona {
+            background-image: url(../../assets/images/Mobilezone.cf10afc5.png);
+        }
+
+        &-goodzone {
+            background-image: url(../../assets/images/Goodzone.ba92d252.png);
+        }
+
+        &-elmakon {
+            background-image: url("https://images.freeimages.com/vme/images/2/2/22658/idea_thumb.png");
+        }
+    
+        &-radius {
+            background-image: url(../../assets/images/Radius.8efad6d1.png);
+        }
+
+        &-texnomart {
+            background-image: url(../../assets/images/Texnomart.9ab1360b.png);
+        }
+
+        &-macbro {
+            background-image: url("https://cdn.macbro.uz/macbro/170201db-675e-4833-b64c-db5371090adc");
+        }
+    }
+
+    &__btn {
+        text-decoration: none;
+        border: 1px solid;
+        border-radius: var(--border-radius);
+        background-color: var(--color);
+        color: #fff;
+        padding: 8px 16px;
+        font-family: "Roboto";
+        font-weight: 400;
+        width: 229px;
+        height: 41.6px;
+    }
+}
