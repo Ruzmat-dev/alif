@@ -69,7 +69,7 @@ const index = () => {
         <div className="container">
           <a href="https://alifnasiya.uz/juma?locale=ru" className="nav__img">
             <img
-              src="https://minio.alifnasiya.uz/service-merchant/e1/94/84/79/e1948479-44ac-4884-9bbe-3d124b3dbd7a.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aGxj0tLP1NLTFS0O%2F20230722%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230722T054618Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f42ffdd62bab85591d8d335461b2640bdf0ac625a382f3a9f89ca11ffa000dd1"
+              src="https://minio.alifnasiya.uz/service-merchant/e1/94/84/79/e1948479-44ac-4884-9bbe-3d124b3dbd7a.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aGxj0tLP1NLTFS0O%2F20230724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230724T054051Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=7d779ab917a26a4fa154a02b42387a946545d2956ad2d5958632e0fdf364f720"
               alt=""
             />
           </a>
