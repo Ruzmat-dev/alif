@@ -40,7 +40,6 @@ const index = () => {
                 <li>Hamkor bo'ling</li>
                 <li> alif Juma </li>
               </ul>
-
               <ul className="nav__wrapper-two">
                 <li>
                   <span>
@@ -63,6 +62,26 @@ const index = () => {
                 </li>
               </ul>
             </div>
+            <div className="nav__wrap">
+              <div className="nav__wrap-one">
+                <i class="bi bi-list"></i>
+                <span>
+                  <img
+                    src="https://alifbank.design/assets/img/logos/alif_en.svg"
+                    alt=""
+                  />
+                  <p>nasiya</p>
+                </span>
+              </div>
+
+              <div className="nav__wrap-two">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/555/555451.png"
+                  alt=""
+                />
+                <p>Рус</p>
+              </div>
+            </div>
           </div>
         </nav>
 
@@ -73,6 +92,16 @@ const index = () => {
               alt=""
             />
           </a>
+
+          <div className="nav__menu">
+            <a className="nav__menu-one" href="https://alifnasiya.uz/auth/registration?locale=uz">
+              Ro`yxatdan o`tish
+            </a>
+
+            <a className="nav__menu-two" href="https://alifnasiya.uz/auth/login-by-sms?locale=uz">
+              Kirish
+            </a>
+          </div>
 
           <ul className="nav__category">
             <li>

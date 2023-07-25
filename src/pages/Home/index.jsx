@@ -9,14 +9,14 @@ import './media.scss'
 
 const index = () => {
   return (
-    <>
+    <div className='wrapper'>
         <Navbar/>
         <Slider/>
         <Partner/>
         <Mobile/>
         <TopQuestion/>
         <Footer/>
-    </>
+    </div>
   )
 }
 
