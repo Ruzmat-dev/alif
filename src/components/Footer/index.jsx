@@ -25,7 +25,7 @@ const index = () => {
             <p>©2023. alif nasiya</p>
             <span>·</span>
             <span>
-              <i class="bi bi-file-earmark-text"></i>
+              <i className="bi bi-file-earmark-text"></i>
               <a href="#">Ommaviy oferta</a>
             </span>
           </div>

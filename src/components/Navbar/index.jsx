@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.scss";
 // import { FiArrowRight } from "react-icons/fi";
 import { TiCreditCard } from "react-icons/ti";
@@ -7,6 +7,18 @@ import { SlBasket } from "react-icons/sl";
 import { FiPercent, FiCreditCard } from "react-icons/fi";
 
 const index = () => {
+  const [isMenuCliked, setIsMenuCliked] = useState(false);
+  const [toggleClassIcon, setToggleClassIcon] = useState("bi bi-x-lg");
+
+  const updataMenu = () => {
+    setIsMenuCliked(true);
+
+    if (isMenuCliked) {
+      setIsMenuCliked(false);
+    }
+  };
+
+  console.log(isMenuCliked);
   return (
     <>
       <header className="navbar">
@@ -64,7 +76,10 @@ const index = () => {
             </div>
             <div className="nav__wrap">
               <div className="nav__wrap-one">
-                <i class="bi bi-list"></i>
+                <i
+                  onClick={updataMenu}
+                  className={isMenuCliked ? "bi bi-x-lg" : "bi bi-list"}
+                ></i>
                 <span>
                   <img
                     src="https://alifbank.design/assets/img/logos/alif_en.svg"
@@ -85,20 +100,30 @@ const index = () => {
           </div>
         </nav>
 
+        <div
+          className={isMenuCliked ? "menu__toggle" : "menu__toggle-none"}
+        ></div>
+
         <div className="container">
           <a href="https://alifnasiya.uz/juma?locale=ru" className="nav__img">
             <img
-              src="https://minio.alifnasiya.uz/service-merchant/e1/94/84/79/e1948479-44ac-4884-9bbe-3d124b3dbd7a.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aGxj0tLP1NLTFS0O%2F20230724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230724T054051Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=7d779ab917a26a4fa154a02b42387a946545d2956ad2d5958632e0fdf364f720"
+              src="https://minio.alifnasiya.uz/service-merchant/6b/e1/ae/a2/6be1aea2-e23c-468e-8663-99aebc2b2827.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aGxj0tLP1NLTFS0O%2F20230727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230727T125219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=80a7ad4347677d22ca019bf1442e603ab130d81966213d65590e8101b385745c"
               alt=""
             />
           </a>
 
           <div className="nav__menu">
-            <a className="nav__menu-one" href="https://alifnasiya.uz/auth/registration?locale=uz">
+            <a
+              className="nav__menu-one"
+              href="https://alifnasiya.uz/auth/registration?locale=uz"
+            >
               Ro`yxatdan o`tish
             </a>
 
-            <a className="nav__menu-two" href="https://alifnasiya.uz/auth/login-by-sms?locale=uz">
+            <a
+              className="nav__menu-two"
+              href="https://alifnasiya.uz/auth/login-by-sms?locale=uz"
+            >
               Kirish
             </a>
           </div>
